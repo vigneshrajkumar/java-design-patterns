@@ -8,17 +8,9 @@ import com.rajkumarv.creational.factory.Sms;
 public class Main {
 
     public static void main(String[] args) {
+        System.out.println("Design Pattern Work Area");
 
-        CommunicationFactory commFact = new CommunicationFactory();
-
-        Communication com = null;
-        System.out.println(com);
-
-        com = commFact.getCommunication("email","vignesh@gmail.com", "attack at dawn");
-        System.out.println(com);
-
-        com = commFact.getCommunication("sms","vignesh@gmail.com", "attack at dawn");
-        System.out.println(com);
+        
 
     }
 }
